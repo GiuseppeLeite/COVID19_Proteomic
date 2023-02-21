@@ -25,7 +25,7 @@ RF data which have been manually transposed
 
 ## COVID_Imputed_and_Corrected.txt
 
-Result after imputation and correction of the batch effect
+Result after imputation and batch effect correction
 
 
 
