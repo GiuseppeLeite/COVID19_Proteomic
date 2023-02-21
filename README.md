@@ -3,7 +3,7 @@
 This repository contains code used to perform analysis for Leite et al. Proteomic analysis reveals key alterations in metabolic pathways and their related immune cell activities, as well as proteins associated with low-density neutrophils during SARS-CoV-2 infection.
 
 
-## Imputation using RF and batch effect correction.R
+# Imputation using RF and batch effect correction.R
 
 Code used for imputation and correction of the batch effect
 
@@ -27,10 +27,16 @@ RF data which have been manually transposed
 
 Result after imputation and batch effect correction
 
+# DAPs_analysis_LIMMA.R
+Code used for Differential Protein Abundance Analysis
 
+## Target_Global.txt
 
+Data with group information 
 
+## Data_To_DAPs.txt
 
+Data used for DAPs analysis (Normalised, log2FC transformed, filtered, imputed and batch effect corrected)
 
 
 
