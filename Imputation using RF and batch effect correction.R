@@ -55,6 +55,8 @@ mod = model.matrix(~Clinical_parameter_Severity, data = Annotation_To_Batch)
 Batch <- data.frame(annotation, prcomp(Data_Imputated_RF_Transpor, 
                                       scale = TRUE, center = TRUE)$rotation)
 
+#ComBat considering sthe day of sample preparation as a batch effect
+
 Data_combat <- ComBat(Data_Imputated_RF_Transpor, 
                        batch = Batch$Batch, 
                        mod = mod, par.prior = TRUE)
