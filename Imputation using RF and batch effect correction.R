@@ -69,7 +69,7 @@ write.table(Data_combat,
             sep = "\t")
 
 
-# analisar a normalização dos dados
+# analyze the normalization of the data
 
 ################################################################################
 #                  Principal component analysis (PCA)                          #
